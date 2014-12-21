@@ -9,14 +9,15 @@ evenstr:
 .globl even
 
 main:
-  movq  $5, %rbp
-  movq  $1, %rsp
-  add %rbp, %rsp
-  TEST $01, %rsp # "add" seems to store the return in the destination register, aka %rsp in this case
-  jz even
-  jmp odd
-  ret
+  movq  $5, %rbp # Move 5 into the general purpose register %rbp
+  movq  $1, %rsp # Move 1 into the general purpose register %rsp
+  add %rbp, %rsp # Add the two registers and store the result into the latter register (%rsp in this case)
+  TEST $01, %rsp # Test if the result (%rsp) is even or naw
+  jz even        # Jump to even() if its even
+  jmp odd        # Jump to odd() if its odd
+  ret            # return(), but I dont think we hit this ever because I am sloppy
 
+# See helloworld.s if you don't get whats going on here
 odd:
   movq	$1,%rax
   movq	$1,%rdi
