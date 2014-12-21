@@ -24,5 +24,8 @@ Syscalls are cool man, who doesnt like interfacing with the kernel in assembly? 
 >cat /usr/include/linux/reboot.h | grep MAGIC
 
 ----------
+###Compilation###
+`gcc intput.s -o output`
+It is so simple! Who knew gcc did asm?
 Anyway, thats all I got for you. Hope you enjoy what I have an I will try to add in a few more programs and keep the comments helpful and short.
 
