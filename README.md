@@ -20,6 +20,7 @@ So, after my hello world I wanted to do some basic math. I was all "lets add stu
 Syscalls are cool man, who doesnt like interfacing with the kernel in assembly? Anywho this was interesting because reboot() takes some weird totally unneeded arguments. Turns out they are significant to Torvolds's life. If you are feeling curious check it out. 
 
 >http://man7.org/linux/man-pages/man2/reboot.2.html
+
 `cat /usr/include/linux/reboot.h | grep MAGIC`
 
 ----------
