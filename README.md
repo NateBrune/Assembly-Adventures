@@ -21,7 +21,7 @@ Syscalls are cool man, who doesnt like interfacing with the kernel in assembly? 
 
 >http://man7.org/linux/man-pages/man2/reboot.2.html
 
-`cat /usr/include/linux/reboot.h | grep MAGIC`
+>cat /usr/include/linux/reboot.h | grep MAGIC
 
 ----------
 Anyway, thats all I got for you. Hope you enjoy what I have an I will try to add in a few more programs and keep the comments helpful and short.
