@@ -10,9 +10,9 @@ evenstr:
 
 main:
   movq  $5, %rbp
-  movq  $2, %rsp
+  movq  $1, %rsp
   add %rbp, %rsp
-  TEST $01, %rbp
+  TEST $01, %rsp
   jz even
   jmp odd
   ret
