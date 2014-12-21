@@ -12,7 +12,7 @@ main:
   movq  $5, %rbp
   movq  $1, %rsp
   add %rbp, %rsp
-  TEST $01, %rsp
+  TEST $01, %rsp # "add" seems to store the return in the destination register, aka %rsp in this case
   jz even
   jmp odd
   ret
