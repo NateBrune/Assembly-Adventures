@@ -2,7 +2,7 @@ Assembly-Adventures
 ===================
 
 This repo is to help newbies like my self learn to program assembly.
-More specificly this is primarily x86_64 Linux assembly in the AT&T syntax. My dream is for someone to come accross this repo and say, "this sucks let me fix it." Please fork and learn! I will try to get a good 20 example programs up in here before I get burned out.
+More specificly this is primarily x86_64 Linux assembly in the AT&T syntax. My dream is for someone to come accross this repo and say, "this sucks let me fix it." Please fork and learn! I update this repo on sometimes... that one time.
 Currently there are three programs.
 
 ----------
