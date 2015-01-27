@@ -16,7 +16,7 @@ Interesting to note that this dosn't use printf or puts, just a good o'le write 
 So, after my hello world I wanted to do some basic math. I was all "lets add stuff and then print the result to the terminal" Yeah, well that doesnt really work cause converting numbers to strings implicitly is unheardof in assembly. So, I just use a TEST instruction to see if the math was carried out and it looks like the value is stored in the %rsp register. Anywho, I aso used some non-general purpose register to store variables to the program exits dirty... I think.
 
 ----------
-#### reeboot.s ####
+#### reboot.s ####
 Syscalls are cool man, who doesnt like interfacing with the kernel in assembly? Anywho this was interesting because reboot() takes some weird totally unneeded arguments. Turns out they are significant to Torvolds's life. If you are feeling curious check it out. 
 
 >http://man7.org/linux/man-pages/man2/reboot.2.html
